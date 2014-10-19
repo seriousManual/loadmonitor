@@ -1,0 +1,31 @@
+{
+  "name": "loadmonitor",
+  "version": "0.0.1",
+  "description": "loadmonitor",
+  "main": "monitor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaphod1984/loadmonitor.git"
+  },
+  "keywords": [
+    "load",
+    "monitor"
+  ],
+  "author": "Manuel Ernst <zaphod84@gmx.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaphod1984/loadmonitor/issues"
+  },
+  "homepage": "https://github.com/zaphod1984/loadmonitor",
+  "dependencies": {
+    "configurations": "^1.1.0",
+    "cputilization": "^1.0.0",
+    "ms": "^0.6.2",
+    "ptic": "^1.0.0",
+    "winston": "^0.8.1",
+    "winston-splunkstorm": "^1.0.0"
+  }
+}
